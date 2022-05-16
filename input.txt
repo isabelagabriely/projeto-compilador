@@ -1,0 +1,18 @@
+void main(int x[10]) {
+    int a, b;
+    char msg[] = "A é Maior que B";
+    char error[] = "B é Maior que A"; 
+
+    scanf("%d %d", &a, &b);
+
+    if (a > b) {
+        int a = a * (10 / 2);
+        printf("%s", msg);
+    } else {
+        int b = b * (10 / (2*2));
+        printf("%s", error);
+    }
+
+    float c = a/b;
+    printf("A divisão de A e B é: %f", c);
+}
